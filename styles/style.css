@@ -23,8 +23,12 @@ body {
     height: 50px; 
     display: flex; 
     align-items: center;
-    ;
-    
+    background-color: white;
+}
+
+.navBtns:hover {
+    color: white;
+    background-color: #04036C;
 }
 
 .opacity {
