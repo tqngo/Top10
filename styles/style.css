@@ -1,4 +1,14 @@
 /* Page 1 */
+@font-face {
+    font-family: "YuGiOh";
+    src: url(/assets/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf);
+}
+
+@font-face {
+    font-family: "Death";
+    src: url(/assets/Death\ Note.ttf);
+}
+
 .navBtns {
     font-size: 50px;
 }
