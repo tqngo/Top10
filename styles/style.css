@@ -9,7 +9,7 @@
     src: url(/assets/Death\ Note.ttf);
 }
 
-body {
+.bgPage1{
     background-image: url(../assets/versus-vs-shiny-colorful-background_1035-18634-transformed-transformed.png);
     width: 100%;
     background-position: top;
