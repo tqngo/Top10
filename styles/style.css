@@ -52,7 +52,10 @@ body {
 /* page 2 */
 
 
-
+.align {
+    display: flex;
+    align-content: space-around;
+}
 
 
 
