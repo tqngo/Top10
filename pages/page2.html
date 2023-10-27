@@ -12,162 +12,443 @@
 
 <body>
 
-    <div class="row pb">
+    <div class="row">
         <nav class="navbar navbar-expand-lg opacity">
-            <div class="container-fluid">
-                <figure>
-                    <img src="../assets/logowhite.png" alt="Superman Batman Logo">
-                </figure>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="container-fluid">
+            <figure>
+              <img src="../assets/logowhite.png" alt="Superman Batman Logo">
+            </figure>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
     
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="col d-flex justify-content-center">
-                        <button class="btn btn-outline-dark navBtns" type="button"><a class="nav-link btns" href="/index.html">Home</button></a>
-                    </div>
-                    <div class="col d-flex justify-content-center">
-                        <button class="btn btn-lg btn-outline-dark navBtns"  type="button"><a class="nav-link btns" href="/pages/page2.html">Heros</button></a>
-                    </div>
-                    <div class="col d-flex justify-content-center">
-                        <button class="btn btn-outline-dark navBtns" type="button"><a class="nav-link btns" href="/pages/page3.html">Villains</button></a>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="col d-flex justify-content-center">
+                <button class="btn btn-outline-dark navBtns" type="button"><a class="nav-link btns"
+                    href="/index.html">Home</button></a>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <button class="btn btn-lg btn-outline-dark navBtns" type="button"><a class="nav-link btns"
+                    href="/pages/page2.html">Heros</button></a>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <button class="btn btn-outline-dark navBtns" type="button"><a class="nav-link btns"
+                    href="/pages/page3.html">Villains</button></a>
+              </div>
             </div>
+          </div>
         </nav>
-    </div>
-
-    <div class="row" style="margin-bottom: 2%;">
+      </div>
+    
+      <div class="row" style="margin-bottom: 2%;">
         <h1 class style="text-align: center;">Top Ten Heros</h1>
-    </div>
-
-
-
-<div class="row">
+      </div>
+    
+      <div class="row">
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="" class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+            <!-- start of carousel -->
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
                 </div>
-            </div>
-            
-        </div>
-        <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="carousel-item">
+                  <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            <!-- end of carousel -->
+            <div class="card-body">
+                <!-- Accordian start -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+                  <!-- Accordian end -->
+          </div>
         </div>
+    
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; height: fit-content; padding-bottom: 30%;">
-                <img src="../assets/Hulk Card.jpg" class="card-img-top" alt="...">
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample2" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!-- end of carousel -->
                 <div class="card-body">
-                    <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item" style="border-radius: 0%;">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
                           <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                               Accordion Item #1
                             </button>
                           </h2>
-                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                            <div class="accordion-body">
-                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                           </div>
                         </div>
                       </div>
                 </div>
-            </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample3" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample4" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample5" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample6" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample7" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample7" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample7" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample8" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample8" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample8" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
         <div class="col d-flex justify-content-around">
-            <div  style="width: 240px; padding-bottom: 30%;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+                <!-- start of carousel -->
+                <div id="carouselExample9" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample9" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample9" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-            </div>
+                <!-- end of carousel -->
+                <div class="card-body">
+                    <!-- Accordian start -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                      <!-- Accordian end -->
+              </div>
         </div>
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="col d-flex justify-content-around">
+           <div style="width: 240px; height: fit-content; padding-bottom: 30%;">
+            <!-- start of carousel -->
+            <div id="carouselExample10" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../assets/Hulk Card.jpg" style="height: 208px; object-fit: cover;" class="card-img-top" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <iframe width="240" height="208" src="https://www.youtube.com/embed/5RjgbrNJ9yE?si=3b75dEDfVbcLWPql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample10" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample10" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- end of carousel -->
+            <div class="card-body">
+                <!-- Accordian start -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+                  <!-- Accordian end -->
+          </div>
+        </div>
+        </div>
+    
 
 
 
