@@ -9,12 +9,16 @@
     src: url(/assets/Death\ Note.ttf);
 }
 
-.bg {
-    background-image: url(/assets/Home\ \(2\).png);
+body {
+    background-image: url(../assets/Home.png);
+    width: 100%;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+}
 
-
+.bg {
+    width: 100%;
+    height: 100vh;
 }
 
 .navBtns {
@@ -41,7 +45,21 @@
     height: 100%;
 }
 
+.vsImg {
+    width: 267px; 
+    height: 228px; 
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 40%;
+}
 
+.topTenImg {
+    width: 550px; 
+    height: 200px; 
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+}
 
 
 
