@@ -1,6 +1,30 @@
 /* Page 1 */
+@font-face {
+    font-family: "YuGiOh";
+    src: url(/assets/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf);
+}
+
+@font-face {
+    font-family: "Death";
+    src: url(/assets/Death\ Note.ttf);
+}
+
+body {
+    background-image: url(/assets/Home\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .navBtns {
-    font-size: 50px;
+    color: black;
+    font-family: YuGiOh; 
+    font-size: 50px; 
+    height: 50px; 
+    display: flex; 
+    align-items: center;
+    ;
+    
 }
 
 .opacity {
