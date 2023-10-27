@@ -9,7 +9,7 @@
     src: url(/assets/Death\ Note.ttf);
 }
 
-body {
+.bg {
     background-image: url(/assets/Home\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
