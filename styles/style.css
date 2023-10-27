@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(../assets/Home.png);
+    background-image: url(../assets/versus-vs-shiny-colorful-background_1035-18634-transformed-transformed.png);
     width: 100%;
     background-position: top;
     background-repeat: no-repeat;
@@ -50,15 +50,13 @@ body {
     height: 228px; 
     position: absolute;
     margin-top: 25%;
-    margin-left: 40%;
 }
 
 .topTenImg {
     width: 550px; 
     height: 200px; 
     position: absolute;
-    margin-top: 10%;
-    margin-left: 40%;
+    margin-top: 2%;
 }
 
 
