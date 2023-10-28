@@ -158,3 +158,15 @@
 .bgPage3 {
     background-color: #E29494
 }
+
+.vName {
+    font-family: Death Note;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.vBody {
+    font-family: YuGiOh;
+    font-size: 20px;
+}
