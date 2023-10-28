@@ -75,9 +75,35 @@
 /* page 2 */
 
 
-.align {
-    display: flex;
-    align-content: space-around;
+.txtAlign {
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+@font-face {
+    font-family: KungFuMaster;
+    src: url(../assets/KungFuMaster-K7vrX.otf);
+}
+
+@font-face {
+    font-family: HoustonComics;
+    src: url(../assets/HoustonComicsPersonalUse-6Yea1.ttf);
+}
+
+.CTitle {
+    font-family: "KungFuMaster";
+    font-size: 24px;
+}
+
+.CText {
+    font-family: "HoustonComics";
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.CList {
+    line-height: 20px;
 }
 
 
