@@ -106,7 +106,13 @@ justify-content: center;
     line-height: 20px;
 }
 
+.bgBodyH {
+    background-color: #020317;
+}
 
+.YuGiOh {
+    font-family: "YuGiOh";
+}
 
 
 
@@ -197,11 +203,10 @@ justify-content: center;
     font-size: 20px;
 }
 .accordion {
-    --bs-accordion-btn-bg: #212529;
+    --bs-accordion-btn-bg: #000000;
     --bs-accordion-btn-color: white;
-    --bs-accordion-active-bg: #212529;
+    --bs-accordion-active-bg: #000000;
     --bs-accordion-active-color: white;
-    --bs-accordion-bg: #212529;
+    --bs-accordion-bg: #000000;
     --bs-accordion-color: white;
-
 }
